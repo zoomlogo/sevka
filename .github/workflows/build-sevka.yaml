@@ -12,9 +12,9 @@ jobs:
     - name: Install dependencies
       run: |
         git clone --depth 1 https://github.com/be5invis/Iosevka
+        cp ../private-build-plans.toml .
         cd Iosevka
         npm install
-        cp ../private-build-plans.toml .
     - name: Build sevka
       run: |
         cd Iosevka
