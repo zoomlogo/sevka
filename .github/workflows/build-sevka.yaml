@@ -4,6 +4,7 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+    steps:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
@@ -19,8 +20,8 @@ jobs:
         cd Iosevka
         npm run build -- contents::sevka
     - name: Archive production artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: dist-without-markdown
-          path: |
-            ./Iosevka/dist/sevka
+      uses: actions/upload-artifact@v3
+      with:
+        name: dist-without-markdown
+        path: |
+          ./Iosevka/dist/sevka
