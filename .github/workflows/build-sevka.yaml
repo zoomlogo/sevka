@@ -11,12 +11,11 @@ jobs:
         node-version: 16
     - name: Install dependencies
       run: |
+        npm i -g ttfautohint
         git clone --depth 1 https://github.com/be5invis/Iosevka
-        pwd && ls
-        cd .. && ls
-        mv private-build-plans.toml Iosevka
         cd Iosevka
-        npm install
+        curl -fLo private-build-plans.toml https://raw.githubusercontent.com/PyGamer0/sevka/main/private-build-plans.toml
+        npm i
     - name: Build sevka
       run: |
         cd Iosevka
