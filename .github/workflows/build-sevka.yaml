@@ -12,7 +12,8 @@ jobs:
     - name: Install dependencies
       run: |
         git clone --depth 1 https://github.com/be5invis/Iosevka
-        pwd
+        pwd && ls
+        cd .. && ls
         mv private-build-plans.toml Iosevka
         cd Iosevka
         npm install
