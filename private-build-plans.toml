@@ -36,7 +36,7 @@ export-glyph-names = false
     f = "tailed"
     i = "tailed-serifed"
     k = "diagonal-tailed-cursive-serifless"
-    r = "earless-rounded"
+    r = "earless-rounded-serifless"
     t = "diagonal-tailed"
     x = "cursive"
 
