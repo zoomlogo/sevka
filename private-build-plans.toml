@@ -4,31 +4,31 @@ spacing = "fixed"
 serifs = "sans"
 no-cv-ss = true
 export-glyph-names = false
-no-ligation = true
 
   [buildPlans.sevka.variants]
   inherits = "ss15"
 
     [buildPlans.sevka.variants.design]
-    apl-form = "enable"
+    capital-q = "crossing-baseline"
+    lower-lambda = "straight-turn"
+    zero = "slashed-cutout"
+    one = "base"
+    four = "open"
+    six = "open-contour"
+    seven = "straight-serifless-crossbar"
+    nine = "open-contour"
+    diacritic-dot = "square"
+    punctuation-dot = "square"
+    asterisk = "penta-low"
+    underscore = "low"
+    caret = "high"
     paren = "large-contour"
     number-sign = "upright-tall"
     at = "fourfold-solid-inner-tall"
     dollar = "open"
-    cent = "open"
     percent = "dots"
-    zero = "dotted"
-    one = "base"
-    four = "open"
-    six = "open-contour"
-    seven = "bend-crossbar-serifed"
-    nine = "open-contour"
-    asterisk = "penta-low"
-    lower-lambda = "straight-turn"
-    underscore = "low"
-    caret = "high"
-    punctuation-dot = "square"
-    diacritic-dot = "square"
+    cent = "open"
+    micro-sign = "tailed"
 
     [buildPlans.sevka.variants.italic]
     a = "single-storey-earless-corner-tailed"
@@ -36,13 +36,8 @@ no-ligation = true
     f = "tailed"
     i = "tailed-serifed"
     k = "diagonal-tailed-cursive-serifless"
-    m = "tailed"
-    n = "tailed"
     r = "earless-rounded"
     t = "diagonal-tailed"
-    u = "toothless-rounded"
-    v = "cursive"
-    w = "cursive"
     x = "cursive"
 
 [buildPlans.sevka.weights.regular]
