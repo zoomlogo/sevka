@@ -2,8 +2,8 @@
 family = "sevka"
 spacing = "fixed"
 serifs = "sans"
-no-cv-ss = true
-export-glyph-names = false
+noCvSs = true
+exportGlyphNames = false
 
   [buildPlans.sevka.variants]
   inherits = "ss15"
