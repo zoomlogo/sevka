@@ -28,7 +28,7 @@ exportGlyphNames = false
     dollar = "open"
     percent = "dots"
     cent = "open"
-    micro-sign = "tailed"
+    micro-sign = "tailed-serifless"
 
     [buildPlans.sevka.variants.italic]
     a = "single-storey-earless-corner-tailed"
