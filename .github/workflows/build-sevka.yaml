@@ -16,13 +16,13 @@ jobs:
         cd Iosevka
         curl -fLo private-build-plans.toml https://raw.githubusercontent.com/PyGamer0/sevka/main/private-build-plans.toml
         npm i
-    - name: Build sevka
+    - name: Build Sevka
       run: |
         cd Iosevka
-        npm run build -- contents::sevka
+        npm run build -- contents::Sevka
     - name: Archive production artifacts
       uses: actions/upload-artifact@v4
       with:
         name: dist
         path: |
-          ./Iosevka/dist/sevka
+          ./Iosevka/dist/Sevka
