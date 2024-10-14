@@ -9,9 +9,8 @@ exportGlyphNames = false
   inherits = "ss15"
 
     [buildPlans.Sevka.variants.design]
-    one = "base"
     two = "curly-neck-serifless"
-    four = "open"
+    four = "open-serifless"
     six = "open-contour"
     seven = "straight-serifless-crossbar"
     nine = "open-contour"
