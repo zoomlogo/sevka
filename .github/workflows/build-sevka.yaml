@@ -8,13 +8,13 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: 16
+        node-version: 25
     - name: Install dependencies
       run: |
         npm i -g ttfautohint
         git clone --depth 1 https://github.com/be5invis/Iosevka
         cd Iosevka
-        curl -fLo private-build-plans.toml https://raw.githubusercontent.com/PyGamer0/sevka/main/private-build-plans.toml
+        curl -fLo private-build-plans.toml https://raw.githubusercontent.com/zoomlogo/sevka/main/private-build-plans.toml
         npm i
     - name: Build Sevka
       run: |
