@@ -34,6 +34,7 @@ exportGlyphNames = false
     cent = "open"
     percent = "dots"
     micro-sign = "tailed-serifless"
+    apl-form = "enable"
 
     [buildPlans.Sevka.variants.italic]
     a = "single-storey-earless-corner-tailed"
